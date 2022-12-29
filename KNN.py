@@ -1,5 +1,5 @@
 def loadData():
-    fileTest = open(r'C:\Users\Mohamed Ahmed\Desktop\study\study 2022\adv ai\KNN on irisDataSet\TestData.txt', 'r')
+    fileTest = open('TestData.txt', 'r')
     testData = []
 
     for line in fileTest:
@@ -16,7 +16,7 @@ def loadData():
     #print(testData)
     fileTest.close()
     
-    fileTrain = open(r'C:\Users\Mohamed Ahmed\Desktop\study\study 2022\adv ai\KNN on irisDataSet\TrainData.txt', 'r')
+    fileTrain = open('TrainData.txt', 'r')
     trainData = []
     for line in fileTrain:
         linePoints = line.split(';')
